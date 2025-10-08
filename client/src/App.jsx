@@ -321,6 +321,8 @@ function App() {
     }
   };
 
+  // const test = "this is a text"
+
   const handleRetry = () => fetchTasks();
 
   return (
@@ -333,7 +335,7 @@ function App() {
               Task Manager
             </h1>
             <p className="text-gray-600 mt-1 text-sm">
-              Manage your tasks easily – built for DevOps demos
+              Manage your tasks easily – built for DevOps project
             </p>
           </div>
           <button

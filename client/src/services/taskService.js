@@ -1,5 +1,8 @@
 const API_BASE_URL = import.meta.env.VITE_API_URL;
 
+console.log('API_BASE_URL:', import.meta.env.VITE_API_URL);
+
+
 class TaskService {
   async getAllTasks() {
     const response = await fetch(`${API_BASE_URL}/tasks`);

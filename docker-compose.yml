@@ -13,8 +13,8 @@ services:
     build:
       context: ./client
       args:
-        # VITE_API_URL: http://13.40.140.49:5000/api
-        VITE_API_URL: http://localhost:5000/api
+        VITE_API_URL: http://3.8.99.134:5000/api
+        # VITE_API_URL: http://localhost:5000/api
     container_name: frontend
     restart: always
     ports:
